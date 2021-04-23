@@ -1,5 +1,5 @@
 {% set name = "mongita" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mongita-{{ version }}.tar.gz
-  sha256: ae4f37a1cfae046adc2b53ad486d3a7bfe083ae29e2cd921edde04b79056e953
+  sha256: 3e1721f8806022168cdc5e222c73bfdff2a1ef81c7bed88909fa2f0edd7e2f9e
 
 build:
   number: 0
@@ -38,7 +38,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Mongita is to MongoDB as SQLite is to SQL'
+  summary: Mongita is to MongoDB as SQLite is to SQL
   description: |
     Mongita is a lightweight embedded document database that implements a
     commonly-used subset of the MongoDB/PyMongo interface. Mongita differs
