@@ -1,5 +1,5 @@
 {% set name = "mongita" %}
-{% set version = "0.2.0" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mongita-{{ version }}.tar.gz
-  sha256: 4f92720e37070181fe1c7482092399bf35208f2582495c04da010587603140c5
+  sha256: 86c6cc6a4d074282f6aae5d8c54a1805612fa54400e43b22b9eaa466f703496c
 
 build:
   number: 0
